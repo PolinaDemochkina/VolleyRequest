@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.volley.MainActivity">
+
+    <Button
+        android:id="@+id/getDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onclick"
+        android:text="@string/getDateButtonText"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="99dp" />
+
+    <TextView
+        android:id="@+id/displayDateAndTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="34dp" />
+
+</LinearLayout>
